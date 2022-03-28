@@ -8,13 +8,7 @@ module.exports = function(eleventyConfig) {
     eleventyConfig.addPlugin(pluginTOC);
     global.filters = eleventyConfig.javascriptFunctions; // magic happens here
     eleventyConfig.setPugOptions({ // and here
-        debug: true,
+        debug: false,
         globals: ['filters']
     });
-    return {
-        dir: {
-            input: "views",
-            output: "docs"
-        }
-    }
 };
