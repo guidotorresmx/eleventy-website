@@ -1,9 +1,9 @@
-extends ../layouts/default.pug
+extends ./_includes/layouts/default.pug
 block data
   - var title = "landing";
   - var description = "landing of eleventy's website";
 
-  append content
+append content
   div.d-flex.flex-column.bd-highlight.mb-3.justify-content-evenly.min-100
     div.mt-5.mb-5
     div.cover-container.d-flex.w-100.h-100.p-3.my-auto.mx-auto.flex-column.pt-auto.pb-auto.pt-md-auto.pb-md-auto.flex-grow-1
@@ -17,11 +17,11 @@ block data
     div.my-5
     div.cover-container.d-flex.w-100.h-100.p-3.my-auto.mx-auto.flex-column.pt-auto.pb-auto.pt-md-auto.pb-md-auto.flex-grow-1
       main.px-3.text-center
-        h1 Sign in.
+        h1 Backgrounds.
         p.lead
-          | Sign in mock form, it includes some bootstrap utilities and material design light buttons. Future releases are going to include different buttons for integration.
+          | A demonstration of backgrounds update using JS and CSS. The demonstrations is simple but serves its purpose. 
         p.lead
-          a.btn.btn-lg.btn-secondary.fw-bold.border-black.bg-black(href='#') Go to Sign in
+          a.btn.btn-lg.btn-secondary.fw-bold.border-black.bg-black(href='./../game') Go to Backgrounds
 
     div.my-5
     div.cover-container.d-flex.w-100.h-100.p-3.my-auto.mx-auto.flex-column.pt-auto.pb-auto.pt-md-auto.pb-md-auto.flex-grow-1
@@ -30,6 +30,6 @@ block data
         p.lead
           | About pages, it includes information about the author of the website and some contact information.
         p.lead
-          a.btn.btn-lg.btn-secondary.fw-bold.border-black.bg-black(href='#') Go to About
+          a.btn.btn-lg.btn-secondary.fw-bold.border-black.bg-black(href='./../about') Go to About
     div.my-5
 

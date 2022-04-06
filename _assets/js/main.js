@@ -1,6 +1,7 @@
 // Bootstrap JS and CSS
 import '../css/main.scss';
-import '../css/spacing.scss';
+import '../css/spacing.css';
+import '../css/backgrounds.css';
 
 
 // Bootstrap Popover

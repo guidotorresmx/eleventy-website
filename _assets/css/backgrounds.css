@@ -1,0 +1,28 @@
+  #button {
+      display: flex;
+      flex-flow: wrap;
+      white-space: nowrap;
+      grid-area: buttonArea;
+      font-size: 1em;
+      padding: 0.3em 0.5em;
+      box-shadow: 0 1px 5px black;
+      color: black;
+      background-color: #ffffff55;
+      border: 4px solid #000000;
+  }
+  
+  #button:active {
+      box-shadow: none;
+      color: white;
+      background-color: #00000055;
+      border: 4px solid #ffffff;
+  }
+  
+  #output {
+      display: flex;
+      flex-flow: wrap;
+      grid-area: outputArea;
+      background-color: #ffffff55;
+      font-size: 1.5em;
+      padding: 0.3em 0.5em;
+  }

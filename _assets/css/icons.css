@@ -1,0 +1,10 @@
+.icon {
+    color: black;
+    font-size: 1.5em;
+    padding: 1.5rem .4rem .4rem .4rem;
+}
+
+.icon:hover {
+    font-size: 2em;
+    padding: 1rem .3rem .3rem .3rem;
+}
