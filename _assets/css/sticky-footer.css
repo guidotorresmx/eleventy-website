@@ -8,6 +8,10 @@ body {
     /* Margin bottom by footer height */
 }
 
+.min-100 {
+    min-height: 100%;
+}
+
 .footer {
     text-align: center;
     margin-left: auto;

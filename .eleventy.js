@@ -7,8 +7,8 @@ module.exports = function(eleventyConfig) {
     eleventyConfig.addPassthroughCopy({ '_assets/img': 'assets/img' });
     eleventyConfig.setLibrary('md', markdownIt().use(markdownItAnchor));
     eleventyConfig.addPlugin(pluginTOC);
-    global.filters = eleventyConfig.javascriptFunctions; // magic happens here
-    eleventyConfig.setPugOptions({ // and here
+    global.filters = eleventyConfig.javascriptFunctions;
+    eleventyConfig.setPugOptions({
         debug: false,
         globals: ['filters']
     });
